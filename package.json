@@ -1,0 +1,17 @@
+{
+  "name": "test-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3000 tsx main.ts",
+    "watch": "PORT=3000 tsx main.ts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0"
+  }
+}
